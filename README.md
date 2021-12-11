@@ -24,7 +24,8 @@ simulating the work of multiple real servers
 ## System diagram
 ![System diagram](images/SNA_diagram.svg "System diagram")
 ## How to run the system
-1. Download and unpack the archive with .box files and Vagrantfile from the following [link](https://drive.google.com/file/d/1kEm5UyYV1Mk-roqmd8fiVJp4yFp--nio/view?usp=sharing)
+1. Download and unpack the archive with .box files from the following [link](https://drive.google.com/file/d/1kEm5UyYV1Mk-roqmd8fiVJp4yFp--nio/view?usp=sharing), 
+   take the Vagrantfile from the repository and put it in the same directory with .box files
 2. Run the Vagrant VMs using the ```vagrant up``` command
 3. (Optional, only in case if SSH does not work for Vagrant VMs)  
    Copy ```/path/to/.vagrant.d/insecure_private_key``` on the host machine and write it to ```.ssh/authorized_keys```
